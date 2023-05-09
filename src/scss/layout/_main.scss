@@ -1,0 +1,16 @@
+.auto-snake {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__canvas {
+    padding: 10px 10px 5px 10px;
+    box-shadow: var(--block-box-shdow);
+    background-color: var(--element-background);
+
+    canvas {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

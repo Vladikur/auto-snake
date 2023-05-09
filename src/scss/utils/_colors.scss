@@ -1,0 +1,13 @@
+@mixin colors {
+  --app-background: #ECECEC;
+  --element-background: #A9B6A2;
+  --snake-color: #BAA6CB;
+  --food-color: #EF704F;
+
+  --block-box-shdow: rgb(38, 57, 77) 0 20px 30px -10px;
+}
+
+// colors that are not css variables can be specified below
+
+$selectionColor: white;
+$selectionBackground: black;
